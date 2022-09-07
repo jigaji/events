@@ -1,0 +1,26 @@
+.board {
+    width: 488px;
+    height: 488px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square {
+    height: 120px;
+    width: 120px;
+    border: solid black 1px;
+    cursor: url('/src/images/cursor.png'), pointer;
+}
+.goblin {
+    background-image: url('/src/images/goblin.png');
+    background-size: cover;
+}
+
+#score {
+    color: green;
+    font-size: 40px;
+}
+
+#miss {
+    color: red;
+    font-size: 40px;
+}
