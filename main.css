@@ -1,0 +1,1 @@
+.board{display:flex;flex-wrap:wrap;height:488px;width:488px}.square{border:1px solid #000;cursor:url(2a6c5f348eb6866112ad.png),pointer;height:120px;width:120px}.goblin{background-image:url(2dbd01ce16c0fa83cb67.png);background-size:cover}#score{color:green}#miss,#score{font-size:40px}#miss{color:red}
