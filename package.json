@@ -8,9 +8,10 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
     "test": "jest",
-    "coverage": "jest --coverage" 
+    "coverage": "jest --coverage",
+    "deploy": "gh-pages -d build"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "jsdom"
   },
   "author": "coursar",
@@ -36,5 +37,9 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "core-js": "3"
   }
 }

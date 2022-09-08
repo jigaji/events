@@ -6,11 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
-  },
-  devServer: {
-    static: path.join(__dirname, 'dist'),
-    port: 9000,
+    publicPath: '',
   },
   module: {
     rules: [
@@ -36,19 +32,15 @@ module.exports = {
         ],
       },
       {
-        test: /\.svg$/,
-        type: 'asset/resource',
+        test: /\.(svg|png)$/,
+        type: 'asset/resource'
       },
-      {
-        test: /\.png$/,
-        type: 'asset/resource',
-      }
     ],
   },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
-      filename: './index.html',
+      filename: './main.html',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
