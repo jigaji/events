@@ -37,4 +37,4 @@ Copyright gfycat.com
 
 **В качестве результата пришлите проверяющему ссылку на ваш GitHub-проект. Не забудьте установить бейджик сборки.**
 
-[![Build status](https://ci.appveyor.com/api/projects/status/lmfu59tndh7l2tbk?svg=true)](https://ci.appveyor.com/project/jigaji/events)
+[![Build status](https://ci.appveyor.com/api/projects/status/xoevsjvmwye0e5qx?svg=true)](https://ci.appveyor.com/project/jigaji/events)
